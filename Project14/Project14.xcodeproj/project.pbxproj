@@ -17,6 +17,9 @@
 		1224461B29F942BD00681874 /* whackBad.caf in Resources */ = {isa = PBXBuildFile; fileRef = 1224461929F942BC00681874 /* whackBad.caf */; };
 		1224461C29F942BD00681874 /* whack.caf in Resources */ = {isa = PBXBuildFile; fileRef = 1224461A29F942BD00681874 /* whack.caf */; };
 		1224461E29F9462A00681874 /* WhackSlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1224461D29F9462A00681874 /* WhackSlot.swift */; };
+		1224462229FA4EF200681874 /* gameOver.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1224462129FA4EF200681874 /* gameOver.wav */; };
+		1224462429FA590A00681874 /* smokeEmitter.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1224462329FA590A00681874 /* smokeEmitter.sks */; };
+		1224462629FA594800681874 /* mudEmitter.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1224462529FA594800681874 /* mudEmitter.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +34,9 @@
 		1224461929F942BC00681874 /* whackBad.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = whackBad.caf; sourceTree = "<group>"; };
 		1224461A29F942BD00681874 /* whack.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = whack.caf; sourceTree = "<group>"; };
 		1224461D29F9462A00681874 /* WhackSlot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhackSlot.swift; sourceTree = "<group>"; };
+		1224462129FA4EF200681874 /* gameOver.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = gameOver.wav; sourceTree = "<group>"; };
+		1224462329FA590A00681874 /* smokeEmitter.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = smokeEmitter.sks; sourceTree = "<group>"; };
+		1224462529FA594800681874 /* mudEmitter.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = mudEmitter.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +79,9 @@
 				1224461129F93FBB00681874 /* LaunchScreen.storyboard */,
 				1224461A29F942BD00681874 /* whack.caf */,
 				1224461929F942BC00681874 /* whackBad.caf */,
+				1224462129FA4EF200681874 /* gameOver.wav */,
+				1224462329FA590A00681874 /* smokeEmitter.sks */,
+				1224462529FA594800681874 /* mudEmitter.sks */,
 			);
 			path = Project14;
 			sourceTree = "<group>";
@@ -135,9 +144,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1224462429FA590A00681874 /* smokeEmitter.sks in Resources */,
 				1224461B29F942BD00681874 /* whackBad.caf in Resources */,
 				1224460E29F93FB900681874 /* Main.storyboard in Resources */,
+				1224462629FA594800681874 /* mudEmitter.sks in Resources */,
 				1224460529F93FB900681874 /* GameScene.sks in Resources */,
+				1224462229FA4EF200681874 /* gameOver.wav in Resources */,
 				1224461029F93FBB00681874 /* Assets.xcassets in Resources */,
 				1224461329F93FBB00681874 /* LaunchScreen.storyboard in Resources */,
 				1224461C29F942BD00681874 /* whack.caf in Resources */,
